@@ -10,9 +10,12 @@
 
 
 <a-scene>
-  <a-sky src="pano.jpg" rotation="0 -130 0"></a-sky>
+  <a-assets>
+    <!-- You got until the count of 10 to load, else the show will go on without you. -->
+    <img id="pano" src="pano.jpg">
+  </a-assets>
+  <a-sky src="#pano" rotation="0 -130 0"></a-sky>
 </a-scene>
-
 
 </body>
 </html>
