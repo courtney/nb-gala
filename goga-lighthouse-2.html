@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="https://naturebridge.org/sites/default/files/logosmall.png" type="image/png">
+  <title>Panorama</title>
+  <meta name="description" content="Panorama — A-Frame">
+  <script src="aframe.min.js"></script>
+</head>
+<body>
+
+
+<a-scene>
+  <a-assets>
+    <!-- You got until the count of 10 to load, else the show will go on without you. -->
+    <img id="pano" src="img/goga-lighthouse-2.jpg">
+  </a-assets>
+  <a-sky src="#pano" rotation="0 -130 0"></a-sky>
+</a-scene>
+
+</body>
+</html>
